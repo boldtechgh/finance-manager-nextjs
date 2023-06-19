@@ -1,5 +1,3 @@
-import Nav from "@components/Nav";
-import SideBar from "@components/SideBar";
 import AdminLayout from "@components/AdminLayout";
 
 export const metadata = {
@@ -10,10 +8,7 @@ export const metadata = {
 export default function Layout({ children }) {
   return (
     <>
-      {/* <Nav />
-      <SideBar /> */}
       <AdminLayout>{children}</AdminLayout>
-      {/* <div>{children}</div> */}
     </>
   );
 }
